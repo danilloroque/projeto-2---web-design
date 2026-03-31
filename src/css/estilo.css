@@ -1,3 +1,37 @@
 *{
+    margin:10px; //remove o espaço externo
+    padding:0; //Remove o espaco inter
+    box-sizing:border-box; // Largura/altura do elemento evitando que estoure
     
+}
+/* 
+Margin 10px; todos os lados
+margin 10px 20px; 10px(cima/baixo) 20px(esquerda/direita)
+margin 10px 20px 30px 40px; (em cima, direita, baixo, esquerda)
+*/
+
+body{
+    background-image: transparent;;
+}
+
+#texto1{
+    color:blue;
+    font-size:40px;
+    font-family: "arial";
+}
+#texto2{
+    color:red;
+    font-size:50px;
+    font-family: "poppins";
+}
+#texto3{
+    color:green;
+    font-size:60px;
+    font-family: "times new roman";
+}
+
+.texto{
+    color:purple;
+    font-size:20px;
+    font-family: "poppins";
 }
